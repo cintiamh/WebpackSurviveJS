@@ -25,3 +25,26 @@ $ npm install webpack --save-dev
 ```
 
 ### Executing webpack
+
+Display the path to the executables:
+```
+$ npm bin
+```
+
+Create a file `app/index.js` with a `console.log('Hello world')` inside and then run:
+```
+$ node_modules/.bin/webpack app/index.js build/index.js
+```
+
+This will run webpack with input `app/index.js` and output `build/index.js`.
+
+### Directory Structure
+
+* app/
+  * index.js
+  * component.js
+* build/
+* package.json
+* webpack.config.js
+
+### Setting up assets
