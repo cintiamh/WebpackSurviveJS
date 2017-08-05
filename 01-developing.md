@@ -1,6 +1,7 @@
 # Developing
 
 1. [Getting Started](#getting-started)
+2. [Automatic Browser Refresh](#automatic-browser-refresh)
 
 ## Getting Started
 
@@ -105,3 +106,29 @@ module.exports = {
 Now we can just run `node_modules/.bin/webpack` and it will find the `webpack.config.js` file and use its configuration parameters.
 
 Now we have a new `index.html` file in the `build/` folder. If we open it, it will run our component code and we'll see `Hello world` inside a `div`.
+
+### Adding a build shortcut
+
+package.json:
+```javascript
+"scripts": {
+  "build": "webpack"
+},
+```
+
+Now we can just run with `npm run build`
+
+### HtmlWebpackPlugin extensions
+
+You could replace HtmlWebpackPlugin with your own or:
+* [html-webpack-template](https://www.npmjs.com/package/html-webpack-template)
+* [html-webpack-template-pug](https://www.npmjs.com/package/html-webpack-template-pug)
+
+There are also some plugin extensions:
+* [favicons-webpack-plugin](https://www.npmjs.com/package/favicons-webpack-plugin)
+* [script-ext-html-webpack-plugin](https://www.npmjs.com/package/script-ext-html-webpack-plugin)
+* [multipage-webpack-plugin](https://www.npmjs.com/package/multipage-webpack-plugin)
+* [resource-hints-webpack-plugin](https://www.npmjs.com/package/resource-hints-webpack-plugin)
+* [preload-webpack-plugin](https://www.npmjs.com/package/preload-webpack-plugin)
+
+## Automatic Browser Refresh
