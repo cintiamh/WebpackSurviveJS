@@ -16,5 +16,8 @@
   "bugs": {
     "url": "https://github.com/cintiamh/WebpackSurviveJS/issues"
   },
-  "homepage": "https://github.com/cintiamh/WebpackSurviveJS#readme"
+  "homepage": "https://github.com/cintiamh/WebpackSurviveJS#readme",
+  "devDependencies": {
+    "webpack": "^3.4.1"
+  }
 }
