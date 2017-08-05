@@ -1,0 +1,20 @@
+{
+  "name": "WebpackSurviveJS",
+  "version": "1.0.0",
+  "description": "Notes from book.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/cintiamh/WebpackSurviveJS.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/cintiamh/WebpackSurviveJS/issues"
+  },
+  "homepage": "https://github.com/cintiamh/WebpackSurviveJS#readme"
+}
