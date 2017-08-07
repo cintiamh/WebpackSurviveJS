@@ -132,3 +132,9 @@ There are also some plugin extensions:
 * [preload-webpack-plugin](https://www.npmjs.com/package/preload-webpack-plugin)
 
 ## Automatic Browser Refresh
+
+### Webpack `watch` mode and `webpack-dev-server`
+
+The `webpack --watch` command detects changes to your files and recompiles automatically.
+
+`webpack-dev-server` is built on top of the `watch` mode and 
